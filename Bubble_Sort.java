@@ -13,8 +13,7 @@ public class Bubble_Sort {
             arr[i] = sc.nextInt();
 
         }
-        System.out.print("Unsorted Array - ");
-        System.out.println(Arrays.toString(arr));
+        System.out.println("Unsorted Array - " + Arrays.toString(arr));
         bubble(arr);
 
     }
@@ -35,7 +34,7 @@ public class Bubble_Sort {
             i++;
         }
 
-        System.out.print("Sorted array - ");
-        System.out.println(Arrays.toString(arr));
+        System.out.println("Sorted array - " + Arrays.toString(arr));
+
     }
 }
