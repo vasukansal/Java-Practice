@@ -21,7 +21,7 @@ public class Bubble_Sort {
     public static void bubble(int[] arr) {
         int i = 0;
 
-        while (i != arr.length) {
+        while (i != arr.length - 1) {
             for (int j = 1; j < arr.length - i; j++) {
                 if (arr[j] < arr[j - 1]) {
                     int temp;
