@@ -12,7 +12,7 @@ public class Star_Inverted_Triangle {
 
     public static void pat(int rows) {
         int count = rows;
-        for (int i = 1; i <= rows; i++) {
+        for (int i = 1; i <= rows; i++) { // reverse triangle
             for (int j = 1; j <= count; j++) {
                 System.out.print("*");
 
