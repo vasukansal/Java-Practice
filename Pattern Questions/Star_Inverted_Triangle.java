@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Inverted_Triangle {
+public class Star_Inverted_Triangle {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int rows;
