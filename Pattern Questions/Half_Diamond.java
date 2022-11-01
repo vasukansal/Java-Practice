@@ -6,6 +6,7 @@ public class Half_Diamond {
         int rows;
         System.out.print("Enter the no. of rows - ");
         rows = sc.nextInt();
+        sc.close();
         pat(rows);
     }
 
