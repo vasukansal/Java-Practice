@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Star_Triangle {
-    public static void main(String[] args) { // Triangle pattern
+    public static void main(String[] args) { // Star Triangle pattern
         Scanner sc = new Scanner(System.in);
         int row;
         System.out.print("Enter the no. of Rows - ");
